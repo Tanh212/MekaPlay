@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:src/index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+========
+@import 'antd/dist/reset.css';
+
+/* Sau đó mới là tailwind hoặc css khác */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ... */
+
+
+
+>>>>>>> origin/fail
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,4 +85,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+<<<<<<< HEAD
 @import 'antd/dist/reset.css';
+=======
+>>>>>>>> origin/fail:frontend/src/index.css
+>>>>>>> origin/fail
