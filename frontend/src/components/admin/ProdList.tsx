@@ -1,4 +1,13 @@
 import { useQuery } from "@tanstack/react-query";
+<<<<<<< HEAD
+import {Table, Spin, Image} from "antd";
+
+interface Products{
+    id: string;
+    name: string;
+    
+}
+=======
 import { Table, Spin, Image, Tag } from "antd";
 import axios from "axios";
 
@@ -80,3 +89,4 @@ function ProdList() {
   );
 }
 export default ProdList;
+>>>>>>> origin/fail
